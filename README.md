@@ -1,6 +1,8 @@
 # Sales Performance Dashboard
 
-A resume-ready project demonstrating SQL + Python analysis and a Tableau/Power BI dashboard over ~10,000 transactions across 4 regions. You can run fully locally (SQLite) and reproduce all metrics and visualizations.
+A resume‑ready project demonstrating SQL + Python analysis and a Tableau/Power BI dashboard over **~10 k transactions across four regions**.  
+Use this repository to showcase your end‑to‑end ability to clean data, model metrics, and build polished visualizations that highlight business insights.  
+Everything runs fully locally (SQLite) so recruiters can reproduce all metrics and visuals without external dependencies.
 
 ## 🧭 Project Goals
 - Clean and model transaction data
@@ -21,6 +23,11 @@ Sales-Performance-Dashboard/
 ├─ reports/               # PDF/PNG of dashboard and a 1-page executive summary
 └─ .github/workflows      # CI to test that the project runs
 ```
+
+## 🖼️ Sample visualization
+To give recruiters a sense of the kinds of insights you can surface, the repository includes a simple bar chart illustrating comparative sales performance across four categories/regions. Replace this image with snippets or exports from your own dashboard (e.g. screenshots from Tableau or Power BI).
+
+![Sample sales chart](reports/sales_dashboard_chart.png)
 
 ## 🗃️ Data (example schema)
 - **transactions.csv**: `order_id, order_date, sku, region, qty, unit_price, discount, channel`
@@ -64,7 +71,7 @@ jupyter notebook notebooks/EDA_and_Leakage.ipynb
 A minimal CI workflow (GitHub Actions) is included to lint and run a smoke test so recruiters can see the repo is healthy.
 
 ## 🗺️ Deliverables for your resume
-- “Built an interactive Tableau dashboard analyzing 10k+ transactions across 4 regions; identified revenue leakage and seasonal patterns; recommended actions projected to lift revenue by 10%.”
+- “Built an interactive Tableau dashboard analyzing **10k+ transactions across four regions**; identified SKUs causing revenue leakage and surfacing seasonal patterns; recommended actions projected to lift revenue by **10%** and improve sales forecasting accuracy.”
 
 ---
 *Last updated: 2025-08-20*
